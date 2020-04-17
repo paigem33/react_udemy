@@ -1,0 +1,25 @@
+body{
+    background-image: linear-gradient(to right, #99bbff, #89adf5, #85a9f0, #89adf5, #99bbff);
+    font-family:lato;
+    color:#212121;
+}
+.wrapper{
+    margin: auto;
+    max-width: 500px;
+    margin-top: 40vh
+}   
+.main {
+    background-color: white;
+    top:20px;
+    box-shadow: 0px 8px 40px 0 rgba(13,28,39,0.6);
+    border-radius: 10px;
+    padding: 15px;
+}
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+h1 {
+    color: lightslategrey;
+}
