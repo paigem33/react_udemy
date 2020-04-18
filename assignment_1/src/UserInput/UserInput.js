@@ -4,9 +4,9 @@ import './UserInput.css';
 const UserInput = (props) => {
     return (
     <div className="input-div">
-        <input type="text" required/>
+        <input type="text" required onChange={props.changed}/>
         <hr/>
-        <label>Name</label>
+        <label>{props.children}</label>
     </div>
     )
 }

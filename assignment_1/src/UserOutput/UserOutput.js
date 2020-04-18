@@ -4,7 +4,8 @@ import './UserOutput.css';
 const UserOutput = (props) => {
     return (
         <div className="output-div">
-            <p>Text here</p>
+            <p>Name: {props.name}</p>
+            <p>Age: {props.age}</p>
         </div>
     )
 }
