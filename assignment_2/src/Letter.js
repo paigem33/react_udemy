@@ -2,7 +2,7 @@ import React from 'react';
 
 const letter = (props) => {
     return (
-    <span>A</span>
+    <span onClick={props.delete}>{props.letter}</span>
     )
 }
 
