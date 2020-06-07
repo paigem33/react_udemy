@@ -1,0 +1,24 @@
+.bowl {
+    display: block;
+    margin: 25px auto 0;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    right: 0;
+    width: 20rem;
+    height: 5rem;
+    background: #f3f3f3;
+    border-radius: .2rem .2rem 5rem  5rem;
+    border-bottom: 0.3rem solid #ccc;
+    z-index: 0;
+}
+.bowl:after {
+    content: '';
+    background: #E52372;
+    display: block;
+    position: absolute;
+    width: inherit;
+    height: 0.3rem;
+    top: 0.2rem;
+  }
